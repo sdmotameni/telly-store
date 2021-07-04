@@ -14,6 +14,7 @@ export default function Home() {
         <nav className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 flex items-center	justify-between px-3 py-3">
           <a
             href="https://app.gettelly.com/me"
+            rel="noreferrer"
             target="_blank"
             className="bg-blue-600 px-4 py-1 text-white rounded-md text-sm"
           >
@@ -29,7 +30,7 @@ export default function Home() {
         </nav>
         <div className="bg-grey-100 p-2">
           <div className="custombg flex flex-col px-8 py-8 rounded-lg">
-            <div class="flex flex-col">
+            <div className="flex flex-col">
               <Image src="/stars.svg" alt="" width={75} height={25} />
               <h2 className="text-white text-center font-mono text-sm">
                 Rated 5-Stars by hundreds of users
@@ -38,7 +39,7 @@ export default function Home() {
             <h1 className="mt-3 text-white font-bold text-3xl text-center">
               Share all your socials a tap
             </h1>
-            <video autoplay="" playsinline="" loop="" muted="" className="h-48">
+            <video autoPlay="" playsinline="" loop="" muted="" className="h-48">
               <source
                 src="https://cdn.shopify.com/s/files/1/0572/4058/4379/t/1/assets/tap.webm"
                 type="video/webm"
