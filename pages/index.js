@@ -29,7 +29,7 @@ export default function Home() {
           </a>
         </nav>
         <div className="bg-grey-100 p-2">
-          <div className="custombg flex flex-col px-8 py-8 rounded-lg">
+          <div className="custombg flex flex-col px-8 py-14 rounded-lg">
             <div className="flex flex-col">
               <Image src="/stars.svg" alt="" width={75} height={25} />
               <h2 className="text-white text-center font-mono text-sm">
