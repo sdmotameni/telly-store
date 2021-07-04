@@ -11,12 +11,12 @@ export default function Home() {
       </Head>
 
       <main>
-        <nav class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 flex items-center	justify-between px-3 py-3">
+        <nav className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 flex items-center	justify-between px-3 py-3">
           <img
-            class="h-5 object-contain"
+            className="h-5 object-contain"
             src="https://us.getnexar.com/_next/static/images/e0153a9b8c3f6528726658bf5359c4f7-178.png"
           />
-          <button class="bg-purple-400 px-4 py-1 text-white rounded-md text-sm">
+          <button className="bg-purple-400 px-4 py-1 text-white rounded-md text-sm">
             Buy Now
           </button>
         </nav>
