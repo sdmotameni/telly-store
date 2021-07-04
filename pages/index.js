@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <nav className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 flex items-center	justify-between px-3 py-3">
+        <nav className="sticky top-0 z-50 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 flex items-center	justify-between px-3 py-3">
           <a
             href="https://app.gettelly.com/me"
             rel="noreferrer"
