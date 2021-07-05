@@ -11,32 +11,25 @@ export default function Home() {
       </Head>
 
       <main>
-        <nav className="sticky top-0 z-50 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 flex items-center	justify-between px-3 py-3">
-          <a
-            href="https://app.gettelly.com/me"
-            rel="noreferrer"
-            target="_blank"
-            className="bg-blue-600 px-4 py-1 text-white rounded-md text-sm"
-          >
-            Login
-          </a>
-          <Image src="/nexar.png" alt="" width={68} height={25} />
+        <nav className="sticky top-0 z-50 flex items-center justify-between px-3 py-3 bg-gradient-to-r from-green-400 to-blue-500">
+          <Image src="/nexar.png" alt="" width={64} height={18} />
           <a
             href="https://gettelly.com/products/telly-gadget"
-            className="bg-purple-400  px-4 py-1 text-white rounded-md text-sm"
+            className="px-4 py-1 text-sm text-white bg-purple-600 rounded-md"
           >
             Buy Now
           </a>
         </nav>
-        <div className="bg-grey-100 p-2">
-          <div className="custombg flex flex-col px-8 py-14 rounded-lg">
+
+        <div className="p-2 bg-grey-100">
+          <div className="flex flex-col px-8 rounded-lg custombg py-14">
             <div className="flex flex-col">
               <Image src="/stars.svg" alt="" width={75} height={25} />
-              <h2 className="text-white text-center font-mono text-sm">
+              <h2 className="font-mono text-sm text-center text-white">
                 Rated 5-Stars by hundreds of users
               </h2>
             </div>
-            <h1 className="mt-3 text-white font-bold text-3xl text-center">
+            <h1 className="mt-3 text-3xl font-bold text-center text-white">
               Share all your socials a tap
             </h1>
             <video autoPlay="" playsinline="" loop="" muted="" className="h-48">
@@ -47,14 +40,14 @@ export default function Home() {
               <source src="https://cdn.shopify.com/s/files/1/0572/4058/4379/t/1/assets/tap.mp4" />
               <source src="https://cdn.shopify.com/s/files/1/0572/4058/4379/t/1/assets/tap.mp4" />
             </video>
-            <div className="text-white text-center">Stuff goes here</div>
+            <div className="text-center text-white">Stuff goes here</div>
             <a
               href="https://gettelly.com/products/telly-gadget"
-              className="bg-purple-400 px-4 py-1 text-white text-center rounded-md text-lg mt-3"
+              className="px-4 py-1 mt-3 text-lg text-center text-white bg-purple-600 rounded-md"
             >
               Buy Now
             </a>
-            <div className="text-white text-sm mt-2">
+            <div className="mt-2 text-sm text-white">
               Free shipping & returns | 15-day money-back guarantee | No monthly
               fees
             </div>
