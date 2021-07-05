@@ -11,11 +11,56 @@ export default function Home() {
       </Head>
 
       <main>
-        <nav className="sticky top-0 z-50 flex items-center justify-between px-3 py-3 bg-gradient-to-r from-green-400 to-blue-500">
-          <Image src="/nexar.png" alt="" width={64} height={18} />
+        <nav className="sticky top-0 z-50 flex items-center justify-between px-5 py-4 bg-gradient-to-r from-green-300 via-blue-700 to-blue-900">
+          <div className="flex items-center">
+            <svg
+              className="mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              width="13.848"
+              height="7"
+              viewBox="0 0 13.848 7"
+              version="1.1"
+              id="svg8"
+            >
+              <defs id="defs12" />
+              <g
+                fill="none"
+                fill-rule="evenodd"
+                stroke-linecap="round"
+                id="g6"
+                transform="translate(-0.27001871,-0.026)"
+              >
+                <g stroke="#ffffff" stroke-width="2" id="g4">
+                  <path
+                    d="M 20.296,24.026 H 32.144"
+                    transform="translate(-19,-23)"
+                    id="path2"
+                  />
+                </g>
+              </g>
+              <g
+                fill="none"
+                fill-rule="evenodd"
+                stroke-linecap="round"
+                id="g6-3"
+                transform="translate(-0.296,4.974)"
+              >
+                <g stroke="#ffffff" stroke-width="2" id="g4-6">
+                  <path
+                    d="M 20.296,24.026 H 32.144"
+                    transform="translate(-19,-23)"
+                    id="path2-7"
+                  />
+                </g>
+              </g>
+            </svg>
+
+            <Image src="/nexar.png" alt="" width={64} height={18} />
+          </div>
+
           <a
             href="https://gettelly.com/products/telly-gadget"
-            className="px-4 py-1 text-sm text-white bg-purple-600 rounded-md"
+            className="px-5 py-1 text-xs text-white bg-purple-500 rounded-md"
           >
             Buy Now
           </a>
@@ -43,7 +88,7 @@ export default function Home() {
             <div className="text-center text-white">Stuff goes here</div>
             <a
               href="https://gettelly.com/products/telly-gadget"
-              className="px-4 py-1 mt-3 text-lg text-center text-white bg-purple-600 rounded-md"
+              className="px-4 py-1 mt-3 text-lg text-center text-white bg-purple-500 rounded-md"
             >
               Buy Now
             </a>
