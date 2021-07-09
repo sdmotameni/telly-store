@@ -24,17 +24,38 @@ export default function Home() {
             <h1 className="mt-3 text-3xl font-bold text-center text-white">
               Share all your socials a tap
             </h1>
-            <div className="flex text-center text-white border border-red-500">
+            <div className="flex text-center text-white">
               <div className="flex flex-col items-center space-y-1">
-                <img src="/navicon.svg" className="w-5" />
+                <div className="relative w-6 h-6">
+                  <Image
+                    alt="Mountains"
+                    src="/navicon.svg"
+                    layout="fill"
+                    objectFit="contain"
+                  />
+                </div>
                 <p className="text-sm">No App Needed</p>
               </div>
               <div className="flex flex-col items-center space-y-1">
-                <img src="/phone.svg" className="w-6" />
+                <div className="relative w-6 h-6">
+                  <Image
+                    alt="phone"
+                    src="/phone.svg"
+                    layout="fill"
+                    objectFit="contain"
+                  />
+                </div>
                 <p className="text-sm">For iPhones & Androids</p>
               </div>
               <div className="flex flex-col items-center space-y-1">
-                <img src="/phone.svg" className="w-6" />
+                <div className="relative w-6 h-6">
+                  <Image
+                    alt="phone"
+                    src="/phone.svg"
+                    layout="fill"
+                    objectFit="contain"
+                  />
+                </div>{" "}
                 <p className="text-sm">Customizable Profiles</p>
               </div>
             </div>
