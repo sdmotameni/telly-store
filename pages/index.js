@@ -25,21 +25,11 @@ export default function Home() {
             </h1>
             <video
               className="w-full h-48"
-              preload
-              muted
-              playsinline
-              autoPlay
-              loop
-            >
-              <source src="/tap.mp4" type="video/mp4" />
-            </video>
-            <video
-              className="w-full h-48"
-              preload
+              preload={true}
               autoPlay={true}
-              loop
-              muted
-              playsinline
+              loop={true}
+              muted={true}
+              playsinline={true}
             >
               <source src="/tap.webm" type="video/webm" />
               <source src="/tap.mp4" type="video/mp4" />
