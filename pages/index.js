@@ -12,28 +12,28 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
-        <div className="p-2 bg-grey-100">
-          <div className="flex flex-col px-8 py-16 bg-blue-900 rounded-lg">
+        <div className="p-2 m-4 border rounded-md shadow bg-grey-100">
+          <div className="flex flex-col px-8 py-16 rounded-lg">
             <div className="flex flex-col">
               <Image src="/stars.svg" alt="" width={75} height={25} />
-              <h2 className="font-mono text-sm text-center text-white">
-                Rated 5-Stars by hundreds of usersss
+              <h2 className="font-mono text-sm text-center ">
+                Rated 5-Stars by hundreds of users
               </h2>
             </div>
-            <h1 className="mt-3 text-3xl font-bold text-center text-white">
+            <h1 className="mt-3 text-3xl font-bold text-center ">
               Share all your socials a tap
             </h1>
-            <video className="w-full" autoPlay="">
+            <video className="w-full h-48" autoPlay="">
               <source src="tap.mp4" type="video/mp4" />
               <source src="tap.webm" type="video/webm" />
               Your browser does not support the video tag.
             </video>
-            <div className="flex text-center text-white">
+            <div className="flex text-center">
               <div className="flex flex-col items-center space-y-1">
                 <div className="relative w-6 h-6">
                   <Image
                     alt="Mountains"
-                    src="/navicon.svg"
+                    src="/phone.svg"
                     layout="fill"
                     objectFit="contain"
                   />
@@ -65,11 +65,11 @@ export default function Home() {
             </div>
             <a
               href="https://shop.gettelly.com/products/telly-gadget"
-              className="px-4 py-1 mt-3 text-lg text-center text-white bg-purple-400 rounded-md"
+              className="px-4 py-1 mt-3 text-lg text-center text-white bg-purple-500 rounded-md"
             >
               Buy Now
             </a>
-            <div className="mt-2 text-xs text-white">
+            <div className="mt-2 text-xs">
               Free shipping & returns | 30-day money-back guarantee | No monthly
               fees
             </div>
