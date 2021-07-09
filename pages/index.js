@@ -33,7 +33,7 @@ export default function Home() {
                     objectFit="contain"
                   />
                 </div>
-                <p className="text-sm">No App Needed</p>
+                <p className="text-xs font-medium">No App Needed</p>
               </div>
               <div className="flex flex-col items-center space-y-1">
                 <div className="relative w-6 h-6">
@@ -44,7 +44,7 @@ export default function Home() {
                     objectFit="contain"
                   />
                 </div>
-                <p className="text-sm">For iPhones & Androids</p>
+                <p className="text-xs font-medium">For iPhones & Androids</p>
               </div>
               <div className="flex flex-col items-center space-y-1">
                 <div className="relative w-6 h-6">
@@ -55,7 +55,7 @@ export default function Home() {
                     objectFit="contain"
                   />
                 </div>
-                <p className="text-sm">Customizable Profiles</p>
+                <p className="text-xs font-medium">Customizable Profiles</p>
               </div>
             </div>
             <a
