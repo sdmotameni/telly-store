@@ -17,7 +17,7 @@ export default function Home() {
             <div className="flex flex-col">
               <Image src="/stars.svg" alt="" width={75} height={25} />
               <h2 className="font-mono text-sm text-center text-white">
-                Rated 5-Stars by hundreds of users
+                Rated 5-Stars by hundreds of usersss
               </h2>
             </div>
             <h1 className="mt-3 text-3xl font-bold text-center text-white">
