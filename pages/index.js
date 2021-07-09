@@ -24,8 +24,8 @@ export default function Home() {
               Share all your socials a tap
             </h1>
             <video className="w-full h-48" autoPlay={true} loop muted>
-              <source src="tap.mp4" type="video/mp4" />
               <source src="tap.webm" type="video/webm" />
+              <source src="tap.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="flex text-center">
