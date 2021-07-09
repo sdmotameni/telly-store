@@ -13,10 +13,7 @@ export default function Home() {
       <main>
         <Navbar />
         <div className="p-2 bg-grey-100">
-          <div className="mt-10 text-lg font-bold text-center">
-            Our servers are undergoing routine maintenance. Check back later.
-          </div>
-          {/* <div className="flex flex-col px-8 py-16 bg-blue-900 rounded-lg">
+          <div className="flex flex-col px-8 py-16 bg-blue-900 rounded-lg">
             <div className="flex flex-col">
               <Image src="/stars.svg" alt="" width={75} height={25} />
               <h2 className="font-mono text-sm text-center text-white">
@@ -26,6 +23,11 @@ export default function Home() {
             <h1 className="mt-3 text-3xl font-bold text-center text-white">
               Share all your socials a tap
             </h1>
+            <video className="w-full" autoPlay="">
+              <source src="tap.mp4" type="video/mp4" />
+              <source src="tap.webm" type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
             <div className="flex text-center text-white">
               <div className="flex flex-col items-center space-y-1">
                 <div className="relative w-6 h-6">
@@ -71,7 +73,7 @@ export default function Home() {
               Free shipping & returns | 30-day money-back guarantee | No monthly
               fees
             </div>
-          </div> */}
+          </div>
         </div>
       </main>
     </>
