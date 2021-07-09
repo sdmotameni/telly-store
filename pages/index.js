@@ -23,7 +23,14 @@ export default function Home() {
             <h1 className="mt-3 text-3xl font-bold text-center opacity-80">
               Share all your socials a tap
             </h1>
-            <video className="w-full h-48" autoPlay={true} loop muted>
+            <video
+              className="w-full h-48"
+              preload
+              autoPlay={true}
+              loop
+              muted
+              playsinline
+            >
               <source src="tap.webm" type="video/webm" />
               <source src="tap.mp4" type="video/mp4" />
               Your browser does not support the video tag.
