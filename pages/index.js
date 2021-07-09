@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <main className="h-screen bg-gray-100">
         <Navbar />
-        <div className="m-2 bg-white rounded-lg shadow">
+        <div className="m-3 bg-white rounded-lg shadow">
           <div className="flex flex-col px-8 py-16 rounded-lg">
             <div className="flex flex-col">
               <Image src="/stars.svg" alt="" width={75} height={25} />
@@ -20,8 +20,8 @@ export default function Home() {
                 Rated 5-Stars by hundreds of users
               </h2>
             </div>
-            <h1 className="mt-3 text-3xl font-bold text-center opacity-80">
-              Share all your socials a tap
+            <h1 className="mt-3 text-3xl font-bold text-center text-transparent bg-gradient-to-r bg-clip-text from-purple-500 to-pink-500">
+              Share all your socials with a tap
             </h1>
             <video
               className="w-full h-48"
@@ -35,7 +35,7 @@ export default function Home() {
               <source src="/tap.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-            <div className="flex text-center">
+            <div className="flex mt-1 text-center">
               <div className="flex flex-col items-center space-y-1">
                 <div className="relative w-6 h-6">
                   <Image
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
             <a
               href="https://shop.gettelly.com/products/telly-gadget"
-              className="px-4 py-1 mt-3 text-lg text-center text-white bg-purple-500 rounded-md"
+              className="px-4 py-1 mt-4 mb-2 text-lg text-center text-white bg-purple-500 rounded-md"
             >
               Buy Now
             </a>
