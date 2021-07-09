@@ -13,7 +13,6 @@ export default function Home() {
       <main>
         <Navbar />
         <div className="p-2 bg-grey-100">
-          {/* <div>Landing page is under development. Check back soon!</div> */}
           <div className="flex flex-col px-8 py-16 bg-blue-900 rounded-lg">
             <div className="flex flex-col">
               <Image src="/stars.svg" alt="" width={75} height={25} />
@@ -60,7 +59,7 @@ export default function Home() {
               </div>
             </div>
             <a
-              href="https://gettelly.com/products/telly-gadget"
+              href="https://shop.gettelly.com/products/telly-gadget"
               className="px-4 py-1 mt-3 text-lg text-center text-white bg-purple-400 rounded-md"
             >
               Buy Now

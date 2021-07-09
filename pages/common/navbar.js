@@ -17,7 +17,7 @@ export default function Navbar() {
         </div>
       </div>
       <a
-        href="https://gettelly.com/products/telly-gadget"
+        href="https://shop.gettelly.com/products/telly-gadget"
         className="px-5 py-1 text-xs text-gray-700 bg-white rounded-md"
       >
         Buy Now
