@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Navbar from "./common/navbar";
 
 export default function Home() {
   return (
@@ -11,63 +12,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <nav className="sticky top-0 z-50 flex items-center justify-between px-5 py-4 bg-gradient-to-r from-green-300 via-blue-700 to-blue-900">
-          <div className="flex items-center">
-            <svg
-              className="mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              width="13.848"
-              height="7"
-              viewBox="0 0 13.848 7"
-              version="1.1"
-              id="svg8"
-            >
-              <defs id="defs12" />
-              <g
-                fill="none"
-                fill-rule="evenodd"
-                stroke-linecap="round"
-                id="g6"
-                transform="translate(-0.27001871,-0.026)"
-              >
-                <g stroke="#ffffff" stroke-width="2" id="g4">
-                  <path
-                    d="M 20.296,24.026 H 32.144"
-                    transform="translate(-19,-23)"
-                    id="path2"
-                  />
-                </g>
-              </g>
-              <g
-                fill="none"
-                fill-rule="evenodd"
-                stroke-linecap="round"
-                id="g6-3"
-                transform="translate(-0.296,4.974)"
-              >
-                <g stroke="#ffffff" stroke-width="2" id="g4-6">
-                  <path
-                    d="M 20.296,24.026 H 32.144"
-                    transform="translate(-19,-23)"
-                    id="path2-7"
-                  />
-                </g>
-              </g>
-            </svg>
-
-            <Image src="/nexar.png" alt="" width={64} height={18} />
-          </div>
-
-          <a
-            href="https://gettelly.com/products/telly-gadget"
-            className="px-5 py-1 text-xs text-white bg-purple-500 rounded-md"
-          >
-            Buy Now
-          </a>
-        </nav>
-
+        <Navbar />
         <div className="p-2 bg-grey-100">
-          <div className="flex flex-col px-8 rounded-lg custombg py-14">
+          <div className="flex flex-col px-8 py-16 bg-blue-900 rounded-lg">
             <div className="flex flex-col">
               <Image src="/stars.svg" alt="" width={75} height={25} />
               <h2 className="font-mono text-sm text-center text-white">
@@ -77,23 +24,28 @@ export default function Home() {
             <h1 className="mt-3 text-3xl font-bold text-center text-white">
               Share all your socials a tap
             </h1>
-            <video autoPlay="" playsinline="" loop="" muted="" className="h-48">
-              <source
-                src="https://cdn.shopify.com/s/files/1/0572/4058/4379/t/1/assets/tap.webm"
-                type="video/webm"
-              />
-              <source src="https://cdn.shopify.com/s/files/1/0572/4058/4379/t/1/assets/tap.mp4" />
-              <source src="https://cdn.shopify.com/s/files/1/0572/4058/4379/t/1/assets/tap.mp4" />
-            </video>
-            <div className="text-center text-white">Stuff goes here</div>
+            <div className="flex text-center text-white border border-red-500">
+              <div className="flex flex-col items-center space-y-1">
+                <img src="/navicon.svg" className="w-5" />
+                <p className="text-sm">No App Needed</p>
+              </div>
+              <div className="flex flex-col items-center space-y-1">
+                <img src="/phone.svg" className="w-6" />
+                <p className="text-sm">For iPhones & Androids</p>
+              </div>
+              <div className="flex flex-col items-center space-y-1">
+                <img src="/phone.svg" className="w-6" />
+                <p className="text-sm">Customizable Profiles</p>
+              </div>
+            </div>
             <a
               href="https://gettelly.com/products/telly-gadget"
-              className="px-4 py-1 mt-3 text-lg text-center text-white bg-purple-500 rounded-md"
+              className="px-4 py-1 mt-3 text-lg text-center text-white bg-yellow-600 rounded-md"
             >
               Buy Now
             </a>
-            <div className="mt-2 text-sm text-white">
-              Free shipping & returns | 15-day money-back guarantee | No monthly
+            <div className="mt-2 text-xs text-white">
+              Free shipping & returns | 30-day money-back guarantee | No monthly
               fees
             </div>
           </div>
