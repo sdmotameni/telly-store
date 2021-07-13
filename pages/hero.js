@@ -1,4 +1,4 @@
-import Image from "next/head";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -13,14 +13,7 @@ export default function Hero() {
         <h1 className="mt-3 text-3xl font-bold text-center text-transparent bg-gradient-to-r bg-clip-text from-purple-500 to-pink-500">
           Share all your socials with a tap
         </h1>
-        <video
-          className="w-full h-48"
-          preload={true}
-          autoPlay={true}
-          loop={true}
-          muted={true}
-          playsinline={true}
-        >
+        <video className="w-full h-48" autoPlay loop muted>
           <source src="/tap.webm" type="video/webm" />
           <source src="/tap.mp4" type="video/mp4" />
           Your browser does not support the video tag.
@@ -29,7 +22,7 @@ export default function Hero() {
           <div className="flex flex-col items-center space-y-1">
             <div className="relative w-6 h-6">
               <Image
-                alt="Mountains"
+                alt="phone"
                 src="/phone.svg"
                 layout="fill"
                 objectFit="contain"

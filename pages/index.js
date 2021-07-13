@@ -18,7 +18,7 @@ export default function Home() {
       <main className="h-screen bg-gray-100">
         <Header />
         <Hero />
-        <div className="font-bold text-center">
+        <div className="px-5 font-bold text-center text-blue-800">
           Our servers are undergoing routine maintenance. Check back later for
           the full website.
         </div>
