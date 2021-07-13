@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="m-3 bg-white rounded-lg shadow">
-      <div className="flex flex-col px-8 py-5 rounded-lg">
+      <div className="flex flex-col py-5 rounded-lg">
         <div className="flex flex-col">
           <Image src="/stars.svg" alt="" width={75} height={25} />
           <h2 className="font-mono text-sm text-center opacity-90">
@@ -19,8 +19,8 @@ export default function Hero() {
           Your browser does not support the video tag.
         </video>
         <div className="flex mt-1 text-center">
-          <div className="flex flex-col items-center space-y-1">
-            <div className="relative w-6 h-6">
+          <div className="flex flex-col items-center space-y-2">
+            <div className="relative w-5 h-5">
               <Image
                 alt="phone"
                 src="/phone.svg"
@@ -30,8 +30,8 @@ export default function Hero() {
             </div>
             <p className="text-xs opacity-90">No App Needed</p>
           </div>
-          <div className="flex flex-col items-center space-y-1">
-            <div className="relative w-6 h-6">
+          <div className="flex flex-col items-center space-y-2">
+            <div className="relative w-5 h-5">
               <Image
                 alt="phone"
                 src="/phone.svg"
@@ -41,8 +41,19 @@ export default function Hero() {
             </div>
             <p className="text-xs opacity-90">For iPhones & Androids</p>
           </div>
-          <div className="flex flex-col items-center space-y-1">
-            <div className="relative w-6 h-6">
+          <div className="flex flex-col items-center space-y-2">
+            <div className="relative w-5 h-5">
+              <Image
+                alt="phone"
+                src="/phone.svg"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
+            <p className="text-xs opacity-90">Unlimited Taps</p>
+          </div>
+          <div className="flex flex-col items-center space-y-2">
+            <div className="relative w-5 h-5">
               <Image
                 alt="phone"
                 src="/phone.svg"
@@ -55,11 +66,11 @@ export default function Hero() {
         </div>
         <a
           href="https://shop.gettelly.com/products/telly-gadget"
-          className="px-4 py-1 mt-4 mb-2 text-lg text-center text-white bg-purple-500 rounded-md"
+          className="px-4 py-1 mt-4 mb-2 text-lg text-center text-white bg-purple-500 rounded-md mx-9"
         >
           Buy Now
         </a>
-        <div className="mt-2 text-xs opacity-90">
+        <div className="mt-2 text-xs mx-9 opacity-90">
           Free shipping & returns | 30-day money-back guarantee | No monthly
           fees
         </div>
