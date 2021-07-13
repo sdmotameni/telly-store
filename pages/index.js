@@ -15,13 +15,13 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="h-screen bg-gray-900">
+      <main className="h-screen bg-gray-800">
         <Header />
         <Hero />
-        <div className="px-5 font-bold text-center text-blue-800">
+        {/* <div className="px-5 font-bold text-center text-white">
           Our servers are undergoing routine maintenance. Check back later for
           the full website.
-        </div>
+        </div> */}
         <Footer />
       </main>
     </>

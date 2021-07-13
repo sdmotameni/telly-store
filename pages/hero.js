@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="m-3 bg-white rounded-lg shadow">
-      <div className="flex flex-col px-8 py-16 rounded-lg">
+      <div className="flex flex-col px-8 py-5 rounded-lg">
         <div className="flex flex-col">
           <Image src="/stars.svg" alt="" width={75} height={25} />
           <h2 className="font-mono text-sm text-center opacity-90">
