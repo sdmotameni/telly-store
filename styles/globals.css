@@ -18,3 +18,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.custombg {
+  background: #0e0a3f;
+}

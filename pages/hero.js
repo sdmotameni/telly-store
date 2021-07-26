@@ -5,7 +5,7 @@ import HeroListItems from "./components/HeroListItems";
 export default function Hero() {
   return (
     <section className="m-3 shadow md:mx-40 md:mt-9">
-      <div className="flex flex-col bg-gradient-to-r from-gray-900 to-cyan-400 rounded-3xl md:px-40 md:py-24">
+      <div className="flex flex-col custombg rounded-3xl md:px-40 md:py-24">
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col items-stretch w-full md:py-3">
             <div className="flex flex-col md:flex-row md:items-center">
@@ -27,7 +27,7 @@ export default function Hero() {
             <HeroListItems />
             <a
               href="https://shop.gettelly.com/products/telly-gadget"
-              className="py-1 text-lg text-center text-white bg-purple-500 rounded-md px-7 md:mt-5 md:self-start"
+              className="px-12 py-1 text-lg text-center text-white bg-purple-500 rounded-md md:mt-5 md:self-start"
             >
               Buy Now
             </a>
