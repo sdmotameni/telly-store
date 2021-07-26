@@ -17,11 +17,11 @@ export default function Hero() {
                   objectFit="contain"
                 />
               </div>
-              <h2 className="font-mono text-sm text-center opacity-90">
+              <h2 className="-mt-3 font-mono text-sm text-center opacity-90">
                 Rated 5-Stars by hundreds of users
               </h2>
             </div>
-            <h1 className="mt-3 text-3xl font-bold text-center">
+            <h1 className="text-2xl font-bold text-center">
               Share all your socials with a tap
             </h1>
             <video className="w-auto h-80" autoPlay loop muted>
