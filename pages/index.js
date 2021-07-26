@@ -15,7 +15,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="h-screen bg-gray-800">
+      <main className="h-screen text-white bg-gray-100">
         <Header />
         <Hero />
         {/* <div className="px-5 font-bold text-center text-white">
