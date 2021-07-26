@@ -32,16 +32,15 @@ export default function Hero() {
             <HeroListItems />
             <a
               href="https://shop.gettelly.com/products/telly-gadget"
-              className="px-12 py-1 text-lg text-center text-white bg-purple-500 rounded-md "
+              className="px-12 py-1 mx-4 mt-3 text-lg text-center text-white bg-purple-500 rounded-md"
             >
               Buy Now
             </a>
           </div>
         </div>
-
-        <div className="mt-2 text-xs mx-9 opacity-90">
+        <div className="mx-4 mt-3 text-xs font-semibold opacity-90">
           Free shipping & returns | 30-day money-back guarantee | No monthly
-          fees
+          fees | 2-Year Warranty Included
         </div>
       </div>
     </section>
