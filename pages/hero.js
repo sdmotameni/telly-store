@@ -24,7 +24,7 @@ export default function Hero() {
             <h1 className="mt-3 text-3xl font-bold text-center">
               Share all your socials with a tap
             </h1>
-            <video className="w-auto h-96" autoPlay loop muted>
+            <video className="w-auto h-80" autoPlay loop muted>
               <source src="/tap.webm" type="video/webm" />
               <source src="/tap.mp4" type="video/mp4" />
               Your browser does not support the video tag.
