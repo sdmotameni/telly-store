@@ -5,7 +5,7 @@ import HeroListItems from "./components/HeroListItems";
 export default function Hero() {
   return (
     <section className="m-3 shadow md:mx-40 md:mt-9">
-      <div className="flex flex-col rounded-3xl custombg md:px-40 md:py-24">
+      <div className="flex flex-col bg-gradient-to-r from-gray-900 to-cyan-400 rounded-3xl md:px-40 md:py-24">
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col items-stretch w-full md:py-3">
             <div className="flex flex-col md:flex-row md:items-center">
@@ -32,17 +32,7 @@ export default function Hero() {
               Buy Now
             </a>
           </div>
-          {/* <video
-            className="absolute top-0 right-0 w-full h-40 md:h-full md:w-auto"
-            autoPlay
-            loop
-            muted
-          >
-            <source src="/tap.webm" type="video/webm" />
-            <source src="/tap.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video> */}
-          <video className="w-auto h-80" autoPlay loop muted>
+          <video className="w-auto h-96" autoPlay loop muted>
             <source src="/tap.webm" type="video/webm" />
             <source src="/tap.mp4" type="video/mp4" />
             Your browser does not support the video tag.

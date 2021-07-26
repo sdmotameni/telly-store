@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 flex items-center justify-between px-5 py-4 bg-blue-900 md:py-2 md:px-12 lg:px-64 ">
+    <nav className="sticky top-0 z-50 flex items-center justify-between px-5 py-4 bg-gradient-to-r from-blue-900 to-cyan-400 md:py-2 md:px-12 lg:px-64 ">
       <div className="flex items-center">
         <div className="relative w-4 h-4 mr-2 md:hidden">
           <Image
