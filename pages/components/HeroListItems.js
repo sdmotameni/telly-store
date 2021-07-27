@@ -13,7 +13,7 @@ export default function HeroListItems() {
         <div className={styles.iconContainer}>
           <Image
             alt="phone"
-            src="/phone-white.png"
+            src="/connect-white.png"
             layout="fill"
             objectFit="contain"
           />
