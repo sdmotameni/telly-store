@@ -3,12 +3,12 @@ import Image from "next/image";
 const styles = {
   container: "flex flex-col items-center",
   iconContainer: "relative w-5 h-5",
-  text: "text-xs font-extralight mt-2",
+  text: "text-xs font-bold mt-2",
 };
 
 export default function HeroListItems() {
   return (
-    <div className="flex items-end justify-center space-x-4 space-y-2 text-center">
+    <div className="flex items-end justify-center mx-6 space-x-4 space-y-2 text-center">
       <div className={styles.container}>
         <div className={styles.iconContainer}>
           <Image
