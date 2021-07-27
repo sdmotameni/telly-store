@@ -1,17 +1,18 @@
 import Image from "next/image";
 
 import HeroListItems from "./components/HeroListItems";
+import HeroTapVideo from "./components/HeroTapVideo";
 
 export default function Hero() {
   return (
-    <section className="m-2 shadow">
+    <section className="m-2">
       <div className="flex flex-col px-3 py-8 custombg rounded-3xl">
         <div className="flex flex-col">
           <div className="flex flex-col items-stretch w-full">
             <div className="flex flex-col items-center">
               <div className="relative w-20 h-9">
                 <Image
-                  alt="navicon"
+                  alt="stars"
                   src="/stars.svg"
                   layout="fill"
                   objectFit="contain"
@@ -24,10 +25,7 @@ export default function Hero() {
             <h1 className="mt-1 text-3xl font-bold text-center">
               Share all your socials with a tap
             </h1>
-            <video className="w-full h-80" autoPlay loop muted>
-              <source src="/tap-bluebg.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <HeroTapVideo />
             <HeroListItems />
             <a
               href="https://shop.gettelly.com/products/telly-gadget"
