@@ -21,10 +21,10 @@ export default function Hero() {
                 Rated 5-Stars by hundreds of users
               </h2>
             </div>
-            <h1 className="text-2xl font-bold text-center">
+            <h1 className="mt-1 text-3xl font-bold text-center">
               Share all your socials with a tap
             </h1>
-            <video className="w-auto h-80" autoPlay loop muted>
+            <video className="w-auto h-80" autoPlay autoplay loop muted>
               <source src="/tap-bluebg.webm" type="video/webm" />
               <source src="/tap-bluebg.mp4" type="video/mp4" />
               Your browser does not support the video tag.
