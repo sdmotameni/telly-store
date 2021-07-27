@@ -25,8 +25,8 @@ export default function Hero() {
               Share all your socials with a tap
             </h1>
             <video className="w-auto h-80" autoPlay loop muted>
-              <source src="/tap.webm" type="video/webm" />
-              <source src="/tap.mp4" type="video/mp4" />
+              <source src="/tap-bluebg.webm" type="video/webm" />
+              <source src="/tap-bluebg.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <HeroListItems />
