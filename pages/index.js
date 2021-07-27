@@ -18,10 +18,10 @@ export default function Home() {
       <main className="h-screen text-white bg-gray-100">
         <Header />
         <Hero />
-        {/* <div className="px-5 font-bold text-center text-white">
+        <div className="px-5 font-bold text-center text-red-600">
           Our servers are undergoing routine maintenance. Check back later for
           the full website.
-        </div> */}
+        </div>
         <Footer />
       </main>
     </>
