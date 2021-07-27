@@ -24,22 +24,21 @@ export default function Hero() {
             <h1 className="mt-1 text-3xl font-bold text-center">
               Share all your socials with a tap
             </h1>
-            <video className="w-auto h-80" autoPlay loop muted>
+            <video className="w-full h-80" autoPlay loop muted>
               <source src="/tap-bluebg.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <HeroListItems />
             <a
               href="https://shop.gettelly.com/products/telly-gadget"
-              className="px-12 py-1 mx-6 mt-3 text-lg text-center text-white bg-purple-500 rounded-md"
+              className="py-1 mx-6 mt-3 text-center text-white rounded-md bg-violet-500 text-md"
             >
               Buy Now
             </a>
           </div>
         </div>
-        <div className="mx-6 mt-3 text-xs font-semibold opacity-90">
-          Free shipping & returns | 30-day money-back guarantee | No monthly
-          fees | 2-Year Warranty Included
+        <div className="mx-6 mt-3 text-xs font-base opacity-90">
+          Free shipping | 30-day money-back guarantee | No monthly fees
         </div>
       </div>
     </section>

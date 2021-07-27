@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const styles = {
   container: "flex flex-col items-center",
-  iconContainer: "relative w-5 h-5",
-  text: "text-xs font-bold mt-2",
+  iconContainer: "relative w-6 h-6",
+  text: "text-xs font-base mt-2",
 };
 
 export default function HeroListItems() {
@@ -18,7 +18,7 @@ export default function HeroListItems() {
             objectFit="contain"
           />
         </div>
-        <p className={styles.text}>No App Needed</p>
+        <p className={styles.text}>No App Needed To Connect</p>
       </div>
       <div className={styles.container}>
         <div className={styles.iconContainer}>
