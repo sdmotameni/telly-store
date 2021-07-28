@@ -1,8 +1,9 @@
 import Head from "next/head";
-import Header from "./common/header";
-import Hero from "./hero";
 
+import Header from "./common/header";
 import Footer from "./common/footer";
+import Hero from "./components/hero";
+import Features from "./components/features";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <main className="h-screen text-white bg-gray-100">
         <Header />
         <Hero />
+        <Features />
         <div className="px-5 font-bold text-center text-red-600">
           Our servers are undergoing routine maintenance. Check back later for
           the full website.
