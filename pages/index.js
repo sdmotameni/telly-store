@@ -4,6 +4,8 @@ import Header from "../components/common/header";
 import Footer from "../components/common/footer";
 import Hero from "../components/hero";
 import Features from "../components/features";
+import HowItWorks from "../components/howitworks";
+import ProfileFeatures from "../components/profileFeatures";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
         <Header />
         <Hero />
         <Features />
+        <HowItWorks />
+        <ProfileFeatures />
         <Footer />
       </main>
     </>

@@ -36,7 +36,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="mx-6 mt-3 text-xs font-base opacity-90">
-          Free shipping | 30-day money-back guarantee | No monthly fees
+          Fast shipping | 30-day money-back guarantee | No monthly fees
         </div>
       </div>
     </section>
