@@ -1,13 +1,15 @@
+import Image from "next/image";
+
 export default function Features() {
   return (
-    <section className="mx-auto mt-3 space-y-10 max-w-7xl md:px-10">
+    <section className="mx-auto mt-3 space-y-5 max-w-7xl md:px-10">
       <div className="flex flex-col items-center h-full py-10 overflow-hidden rounded-3xl bg-gradient-to-tr from-purple-900 via-indigo-800 to-pink-600 md:flex-row ">
         <div className="flex flex-col items-center justify-center w-full h-full py-5 pl-16 pr-16 mb-10 md:w-1/2 md:mb-0 md:items-start md:pl-10 lg:pl-16 lg:pr-10">
           <h2 className="inline-block mx-auto text-5xl font-bold leading-tight text-transparent sm:text-6xl lg:text-7xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 md:mx-0">
             8-core CPU
           </h2>
           <h3 className="text-5xl font-bold leading-none text-indigo-100 sm:text-6xl lg:text-7xl">
-            We're on a <br />
+            We are on a <br />
             power chip.
           </h3>
           <p className="max-w-sm my-8 text-center text-white opacity-75 md:text-left lg:text-lg md:max-w-none">
@@ -22,22 +24,10 @@ export default function Features() {
             Learn More
           </a>
         </div>
-
-        <div className="flex justify-end w-full pl-6 overflow-hidden md:w-1/2 md:pl-0">
-          <img
-            src="https://cdn.devdojo.com/images/april2021/mb-1.png"
-            className="object-cover w-full h-full transform translate-x-0 md:translate-x-0"
-          />
-        </div>
       </div>
 
-      <div className="flex flex-col items-center h-full py-10 overflow-hidden md:rounded-xl bg-gradient-to-tr from-blue-900 via-indigo-700 to-green-700 md:flex-row">
-        <div className="flex justify-start w-full pr-6 overflow-hidden md:w-1/2 md:pr-0">
-          <img
-            src="https://cdn.devdojo.com/images/april2021/mb-2.png"
-            className="object-cover w-full h-full transform translate-x-0 md:translate-x-0"
-          />
-        </div>
+      <div className="flex flex-col items-center h-full py-10 overflow-hidden rounded-3xl md:rounded-xl bg-gradient-to-tr from-blue-900 via-indigo-700 to-green-700 md:flex-row">
+        <div className="flex justify-start w-full pr-6 overflow-hidden md:w-1/2 md:pr-0"></div>
         <div className="flex flex-col items-center justify-center w-full h-full py-5 pl-16 pr-12 mb-10 md:w-1/2 md:mb-0 md:items-start md:pl-16 lg:pl-10 lg:pr-12">
           <h2 className="inline-block pb-2 mx-auto text-5xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 md:mx-0">
             16-core Neural Engine.
@@ -60,7 +50,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center h-full py-10 overflow-hidden bg-gray-900 bg-cover md:rounded-xl md:flex-row">
+      <div className="flex flex-col items-center h-full py-10 overflow-hidden bg-gray-900 bg-cover rounded-3xl md:rounded-xl md:flex-row">
         <div className="flex flex-col items-center justify-center w-full h-full py-5 pl-16 pr-16 mb-10 md:w-1/2 md:mb-0 md:items-start md:pl-10 lg:pl-16 lg:pr-0">
           <h2 className="inline-block mx-auto text-5xl font-bold leading-tight text-transparent sm:text-6xl lg:text-7xl bg-clip-text bg-gradient-to-r from-purple-200 to-pink-100 md:mx-0">
             The power of{" "}
@@ -82,12 +72,7 @@ export default function Features() {
           </a>
         </div>
 
-        <div className="flex justify-end w-full pl-6 overflow-hidden md:w-1/2 md:pl-0">
-          <img
-            src="https://cdn.devdojo.com/images/april2021/macbook.png"
-            className="object-cover w-full h-full transform translate-x-0 md:translate-x-0"
-          />
-        </div>
+        <div className="flex justify-end w-full pl-6 overflow-hidden md:w-1/2 md:pl-0"></div>
       </div>
     </section>
   );
