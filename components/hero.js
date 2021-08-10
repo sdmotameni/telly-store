@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import HeroListItems from "./HeroListItems";
 import HeroTapVideo from "./HeroTapVideo";
+import Features from "./features";
 
 export default function Hero() {
   return (
@@ -39,6 +40,7 @@ export default function Hero() {
           Free shipping | 30-day money-back guarantee | No monthly fees
         </div>
       </div>
+      <Features />
     </section>
   );
 }
