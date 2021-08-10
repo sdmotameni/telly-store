@@ -1,8 +1,8 @@
 export default function ProfileFeatures() {
   return (
-    <section className="px-4 py-8 mx-4 space-y-4 text-white bg-black rounded-3xl">
-      <div className="flex flex-col items-center">
-        <div className="text-xl font-semibold">Cutomizable Profiles</div>
+    <section className="px-4 py-8 mx-4 mt-4 text-white bg-black space-y-9 rounded-3xl">
+      <div className="flex flex-col items-center px-5">
+        <div className="mb-2 text-xl font-semibold">Cutomizable Profiles</div>
         <div className="leading-tight tracking-tight text-center">
           Display all your social media accounts and phone contact information
           elegantly on your profile!

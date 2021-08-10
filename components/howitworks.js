@@ -1,9 +1,9 @@
 export default function HowItWorks() {
   return (
-    <section className="px-4 py-8 mx-4 space-y-4 text-blue-500 rounded-3xl custombg2">
-      <div className="flex flex-col items-center">
-        <div className="text-xl font-semibold">Instant Connection</div>
-        <div className="leading-tight tracking-tight text-center text-gray-900">
+    <section className="px-4 py-8 mx-4 mt-4 text-blue-500 shadow-sm space-y-9 rounded-3xl custombg2">
+      <div className="flex flex-col items-center px-5">
+        <div className="mb-2 text-xl font-semibold">Instant Connection</div>
+        <div className="leading-tight tracking-tight text-center text-gray-600">
           Tap your Telly to the back of anyones phone to share your custom Telly
           profile instantly!
         </div>

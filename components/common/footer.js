@@ -38,7 +38,7 @@ export default function Footer() {
         </nav>
         <div className="flex justify-center mt-8 space-x-6">
           <a
-            href="facebook.com/gettelly"
+            href="https://facebook.com/gettelly"
             className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">Facebook</span>
@@ -56,7 +56,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="instagram.com/gettelly"
+            href="https://instagram.com/gettelly"
             className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">Instagram</span>
@@ -74,7 +74,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="twitter.com/gettelly"
+            href="https://twitter.com/gettelly"
             className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">Twitter</span>
@@ -88,7 +88,7 @@ export default function Footer() {
             </svg>
           </a>
         </div>
-        <p className="mt-8 text-xs leading-6 text-center text-white">
+        <p className="mt-8 text-xs leading-6 text-center text-gray-500">
           615 S College Street, 10th Floor, Charlotte, NC 28202
           <br />© 2021 Telly, LLC. All rights reserved.
         </p>
