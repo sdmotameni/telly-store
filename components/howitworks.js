@@ -4,8 +4,8 @@ export default function HowItWorks() {
       <div className="flex flex-col items-center">
         <div className="text-xl font-semibold">Instant Connection</div>
         <div className="leading-tight tracking-tight text-center text-gray-900">
-          Tap your Telly to the back of anyone's phone to share your custom
-          Telly profile instantly!
+          Tap your Telly to the back of anyones phone to share your custom Telly
+          profile instantly!
         </div>
       </div>
       <video className="w-full h-80" autoPlay playsInline loop muted>
