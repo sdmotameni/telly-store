@@ -18,8 +18,8 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="h-full text-white bg-gray-100">
-        <Header />
+      <Header />
+      <main className="h-full m-2 text-white bg-white">
         <Hero />
         <Features />
         <HowItWorks />

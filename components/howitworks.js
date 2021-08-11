@@ -1,11 +1,16 @@
+import ConnectSVG from "../components/common/connectsvg";
+
 export default function HowItWorks() {
   return (
-    <section className="px-4 py-8 mx-4 mt-4 text-blue-500 shadow-sm space-y-9 rounded-3xl custombg2">
+    <section className="px-4 py-16 shadow-sm text-cyan-500 space-y-9 rounded-3xl custombg2">
       <div className="flex flex-col items-center px-5">
-        <div className="mb-2 text-xl font-semibold">Instant Connection</div>
-        <div className="leading-tight tracking-tight text-center text-gray-600">
-          Tap your Telly to the back of anyones phone to share your custom Telly
-          profile instantly!
+        <div className="flex items-center justify-center p-4 mb-3 bg-white rounded-full shadow-sm">
+          <ConnectSVG styles="w-8 h-8 fill-current" />
+        </div>
+        <div className="mb-1 text-3xl font-semibold">Instant Connection</div>
+        <div className="text-lg leading-tight tracking-tight text-center text-gray-600">
+          Tap your Telly to the back of anyones smartphone to instantly share
+          your profile!
         </div>
       </div>
       <video className="w-full h-80" autoPlay playsInline loop muted>

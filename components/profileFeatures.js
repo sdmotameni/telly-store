@@ -1,11 +1,16 @@
+import SettingsSVG from "../components/common/settingssvg";
+
 export default function ProfileFeatures() {
   return (
-    <section className="px-4 py-8 mx-4 mt-4 text-white bg-black space-y-9 rounded-3xl">
+    <section className="px-4 py-16 mt-6 text-white bg-black space-y-9 rounded-3xl">
       <div className="flex flex-col items-center px-5">
-        <div className="mb-2 text-xl font-semibold">Cutomizable Profiles</div>
-        <div className="leading-tight tracking-tight text-center">
+        <div className="flex items-center justify-center p-4 mb-3 text-black bg-white rounded-full shadow-sm">
+          <SettingsSVG styles="w-8 h-8 fill-current" />
+        </div>
+        <div className="mb-1 text-3xl font-semibold">Customizable Profiles</div>
+        <div className="text-lg leading-tight tracking-tight text-center">
           Display all your social media accounts and phone contact information
-          elegantly on your profile!
+          in an elegant and impressionable way.
         </div>
       </div>
       <video className="w-full h-80" autoPlay playsInline loop muted>
