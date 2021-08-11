@@ -5,7 +5,7 @@ const styles = {
     "flex items-center px-5 py-3 rounded-lg shadow-md bg-white border text-gray-500",
   iconContainer: "relative w-12 h-12",
   contentContainer: "flex flex-col ml-4",
-  contentTitle: "text-lg font-medium tracking-tight ",
+  contentTitle: "text-lg font-normal tracking-tight ",
   contentSubTitle: "text-sm font-normal",
 };
 
@@ -63,6 +63,24 @@ export default function Doubts() {
           </div>
           <div className={styles.contentSubTitle}>
             Receive a 100% full refund
+          </div>
+        </div>
+      </div>
+      <div className={styles.container}>
+        <div className={styles.iconContainer}>
+          <Image
+            alt=""
+            src="/doubts/connect-orange.svg"
+            layout="fill"
+            objectFit="contain"
+          />
+        </div>
+        <div className={styles.contentContainer}>
+          <div className={[styles.contentTitle, " text-orange-700"]}>
+            Universal Compatibility
+          </div>
+          <div className={styles.contentSubTitle}>
+            Only 1 person needs a Telly to connect
           </div>
         </div>
       </div>

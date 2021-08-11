@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const styles = {
-  imageContainer: "relative h-12 w-12",
+  imageContainer: "relative h-14 w-14",
 };
 
 export default function Featured() {
