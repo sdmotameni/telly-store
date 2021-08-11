@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="h-full m-2 text-white bg-white">
+      <main className="h-full m-2 text-white bg-white md:px-48">
         <Hero />
         <Featured />
         <HowItWorks />

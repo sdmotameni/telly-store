@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const styles = {
   container:
-    "flex items-center px-5 py-3 rounded-lg shadow-md bg-white border text-gray-500",
+    "flex items-center px-5 py-3 rounded-lg shadow-md bg-white border text-gray-500 md:h-32",
   iconContainer: "relative w-12 h-12",
   contentContainer: "flex flex-col ml-4",
   contentTitle: "text-lg font-normal tracking-tight ",
@@ -11,7 +11,7 @@ const styles = {
 
 export default function Doubts() {
   return (
-    <section className="py-6 space-y-4">
+    <section className="py-6 space-y-4 md:space-y-0 md:space-x-5 md:flex md:items-center md:justify-center">
       <div className={styles.container}>
         <div className={styles.iconContainer}>
           <Image
