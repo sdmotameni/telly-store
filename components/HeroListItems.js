@@ -12,8 +12,8 @@ export default function HeroListItems() {
       <div className={styles.container}>
         <div className={styles.iconContainer}>
           <Image
-            alt="phone"
-            src="/connect-white.png"
+            alt=""
+            src="/hero/connect-white.png"
             layout="fill"
             objectFit="contain"
           />
@@ -23,8 +23,8 @@ export default function HeroListItems() {
       <div className={styles.container}>
         <div className={styles.iconContainer}>
           <Image
-            alt="phone"
-            src="/phone-white.png"
+            alt=""
+            src="/hero/phone-white.png"
             layout="fill"
             objectFit="contain"
           />
@@ -34,8 +34,8 @@ export default function HeroListItems() {
       <div className={styles.container}>
         <div className={styles.iconContainer}>
           <Image
-            alt="phone"
-            src="/pencil-white.png"
+            alt=""
+            src="/hero/pencil-white.png"
             layout="fill"
             objectFit="contain"
           />

@@ -13,7 +13,7 @@ export default function Hero() {
               <div className="relative w-24 h-10">
                 <Image
                   alt="stars"
-                  src="/stars.svg"
+                  src="/hero/stars.svg"
                   layout="fill"
                   objectFit="contain"
                 />
@@ -35,9 +35,6 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        {/* <div className="mx-6 mt-3 text-xs font-base opacity-90">
-          Fast shipping | 30-day money-back guarantee | No monthly fees
-        </div> */}
       </div>
     </section>
   );

@@ -6,6 +6,8 @@ import Hero from "../components/hero";
 import Featured from "../components/featured";
 import HowItWorks from "../components/howitworks";
 import ProfileFeatures from "../components/profileFeatures";
+import Doubts from "../components/doubts";
+import Faq from "../components/faq";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
         <Featured />
         <HowItWorks />
         <ProfileFeatures />
+        <Doubts />
+        <Faq />
         <Footer />
       </main>
     </>

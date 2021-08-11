@@ -13,32 +13,32 @@ export default function Featured() {
       <div className="flex space-x-9">
         <div className={styles.imageContainer}>
           <Image
-            alt="ABC logo"
-            src="/nbc.svg"
+            alt="NBC logo"
+            src="/featured/logonbc.svg"
             layout="fill"
             objectFit="contain"
           />
         </div>
         <div className={styles.imageContainer}>
           <Image
-            alt="ABC logo"
-            src="/usatoday.svg"
+            alt="USA Today logo"
+            src="/featured/usatoday.svg"
             layout="fill"
             objectFit="contain"
           />
         </div>
         <div className={styles.imageContainer}>
           <Image
-            alt="ABC logo"
-            src="/foxnews.svg"
+            alt="Fox News logo"
+            src="/featured/foxnews.svg"
             layout="fill"
             objectFit="contain"
           />
         </div>
         <div className={styles.imageContainer}>
           <Image
-            alt="ABC logo"
-            src="/cbs.svg"
+            alt="CBS logo"
+            src="/featured/cbs.svg"
             layout="fill"
             objectFit="contain"
           />
