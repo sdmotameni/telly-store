@@ -8,13 +8,13 @@ export default function Featured() {
   return (
     <section className="flex flex-col items-center py-10">
       <div className="mb-3 text-sm font-medium tracking-wide text-gray-400 uppercase">
-        Featured And Previously Seen On
+        Featured On
       </div>
       <div className="flex space-x-9">
         <div className={styles.imageContainer}>
           <Image
             alt="NBC logo"
-            src="/featured/logonbc.svg"
+            src="/featured/nbc.svg"
             layout="fill"
             objectFit="contain"
           />
