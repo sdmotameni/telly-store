@@ -18,7 +18,7 @@ export default function Hero() {
                   objectFit="contain"
                 />
               </div>
-              <h2 className="-mt-3 font-mono text-center text-md opacity-90">
+              <h2 className="-mt-3 font-mono text-sm text-center opacity-90">
                 Rated 5-Stars by hundreds of users
               </h2>
             </div>
@@ -35,9 +35,9 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <div className="mx-6 mt-3 text-xs font-base opacity-90">
+        {/* <div className="mx-6 mt-3 text-xs font-base opacity-90">
           Fast shipping | 30-day money-back guarantee | No monthly fees
-        </div>
+        </div> */}
       </div>
     </section>
   );

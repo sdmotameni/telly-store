@@ -3,7 +3,7 @@ import Head from "next/head";
 import Header from "../components/common/header";
 import Footer from "../components/common/footer";
 import Hero from "../components/hero";
-import Features from "../components/features";
+import Featured from "../components/featured";
 import HowItWorks from "../components/howitworks";
 import ProfileFeatures from "../components/profileFeatures";
 
@@ -21,7 +21,7 @@ export default function Home() {
       <Header />
       <main className="h-full m-2 text-white bg-white">
         <Hero />
-        <Features />
+        <Featured />
         <HowItWorks />
         <ProfileFeatures />
         <Footer />

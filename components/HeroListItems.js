@@ -31,7 +31,6 @@ export default function HeroListItems() {
         </div>
         <p className={styles.text}>For iPhones & Androids</p>
       </div>
-
       <div className={styles.container}>
         <div className={styles.iconContainer}>
           <Image
