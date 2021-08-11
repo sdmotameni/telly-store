@@ -8,6 +8,7 @@ import HowItWorks from "../components/howitworks";
 import ProfileFeatures from "../components/profileFeatures";
 import TechFeature from "../components/techfeature";
 import Doubts from "../components/doubts";
+import HQ from "../components/hq";
 import Faq from "../components/faq";
 
 export default function Home() {
@@ -22,13 +23,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="h-full m-2 text-white bg-white md:px-48">
-        <Hero />
-        <Featured />
-        <HowItWorks />
-        <ProfileFeatures />
-        <TechFeature />
-        <Doubts />
+      <main className="h-full text-white bg-white md:px-48">
+        <div className="m-2">
+          <Hero />
+          <Featured />
+          <HowItWorks />
+          <ProfileFeatures />
+          <TechFeature />
+          <Doubts />
+        </div>
+        <HQ />
         <Faq />
         <Footer />
       </main>
