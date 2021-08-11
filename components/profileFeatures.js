@@ -14,12 +14,12 @@ export default function ProfileFeatures() {
         </div>
       </div>
       <video className="w-full h-80" autoPlay playsInline loop muted>
-        {/* <source
-            src="https://res.cloudinary.com/dyusynvjw/video/upload/v1628022909/videos/telly_bluebg-o_vc5k26.webm"
-            type="video/webm"
-          /> */}
         <source
-          src="https://cdn.shopify.com/s/files/1/0572/4058/4379/t/1/assets/profiledemo.mp4"
+          src="https://res.cloudinary.com/dyusynvjw/video/upload/v1628647369/videos/profiledemo-o_d772yj.webm"
+          type="video/webm"
+        />
+        <source
+          src="https://res.cloudinary.com/dyusynvjw/video/upload/v1628647369/videos/profiledemo-o_hxy6hn.mp4"
           type="video/mp4"
         />
       </video>
