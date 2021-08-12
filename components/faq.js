@@ -9,7 +9,7 @@ export default function Faq() {
       <div className="max-w-6xl px-8 mx-auto lg:px-16">
         <h2 className="mb-2 text-2xl font-bold md:text-3xl">Got a Question?</h2>
         <p className="text-sm text-gray-600 sm:text-base md:text-lg">
-          We may have an answer for you. Here are some of our common FAQ's:
+          We may have an answer for you. Here are some of our common FAQs:
         </p>
         <div className="relative mt-2">
           <div className="relative overflow-hidden border-b-2 border-black select-none">
@@ -32,7 +32,7 @@ export default function Faq() {
                   d="M19 9l-7 7-7-7"
                 ></path>
               </svg>
-              <span>Where do I go to upgrade my account?</span>
+              <span>Can I contact the Telly team?</span>
             </h4>
             <p
               id="answer"
@@ -40,9 +40,8 @@ export default function Faq() {
               x-show="show"
               x-cloak=""
             >
-              You can upgrade your account by visiting The Pro Upgrade Page. You
-              will also gain access to many other applications and sections of
-              the site.
+              Of course! We love to talk! Shoot us over an email anytime and we
+              will respond to you within 24 hours! Email: support@gettelly.com
             </p>
           </div>
         </div>
