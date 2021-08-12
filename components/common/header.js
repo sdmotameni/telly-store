@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 flex items-center justify-between px-5 py-4 bg-gradient-to-r from-blue-900 to-cyan-400 ">
+    <nav className="sticky top-0 z-50 flex items-center justify-between px-5 py-4 custombg">
       <div className="flex items-center">
         <div className="relative w-4 h-4 mr-2">
           <Image
@@ -18,7 +18,7 @@ export default function Navbar() {
       </div>
       <a
         href="https://shop.gettelly.com/products/telly-gadget"
-        className="px-6 py-1 text-xs font-light text-white rounded-md bg-violet-500"
+        className="px-6 py-1 text-sm text-white rounded-md bg-cyan-500"
       >
         Buy Now
       </a>

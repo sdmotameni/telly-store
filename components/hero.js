@@ -29,7 +29,7 @@ export default function Hero() {
             <HeroListItems />
             <a
               href="https://shop.gettelly.com/products/telly-gadget"
-              className="py-1 mx-6 mt-3 text-center text-white rounded-md bg-violet-500 text-md"
+              className="py-2 mx-6 mt-3 text-lg font-medium text-center text-white rounded-md bg-cyan-500"
             >
               Buy Now
             </a>

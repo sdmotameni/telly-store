@@ -32,8 +32,8 @@ export default function Home() {
           <TechFeature />
           <Doubts />
         </div>
-        <HQ />
         <Faq />
+        <HQ />
         <Footer />
       </main>
     </>

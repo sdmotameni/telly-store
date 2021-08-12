@@ -44,6 +44,21 @@ export default function Featured() {
           />
         </div>
       </div>
+      <div className="w-screen py-5 mt-8 bg-gradient-to-r from-blue-900 to-cyan-600">
+        <div className="flex flex-col items-center justify-center">
+          <div className="relative w-8 h-8">
+            <Image
+              alt=""
+              src="/doubts/link.svg"
+              layout="fill"
+              objectFit="contain"
+            />
+          </div>
+          <div className="ml-1 font-bold text-md">
+            Others dont need an app or a Telly to connect
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
