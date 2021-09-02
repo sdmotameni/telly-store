@@ -26,7 +26,7 @@ export default function Hero() {
               Share all your socials with a tap
             </h1>
             <HeroTapVideo />
-            <HeroListItems />
+            {/* <HeroListItems /> */}
             <a
               href="https://shop.gettelly.com/products/telly-gadget"
               className="py-2 mx-6 mt-3 text-lg font-medium text-center text-white rounded-md bg-cyan-500"

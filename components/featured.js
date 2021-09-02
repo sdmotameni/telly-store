@@ -44,7 +44,7 @@ export default function Featured() {
           />
         </div>
       </div>
-      <div className="w-screen py-5 mt-8 bg-gradient-to-r from-blue-900 to-cyan-600">
+      {/* <div className="w-screen py-5 mt-8 bg-gradient-to-r from-blue-900 to-cyan-600">
         <div className="flex flex-col items-center justify-center">
           <div className="relative w-8 h-8">
             <Image
@@ -58,6 +58,9 @@ export default function Featured() {
             Others dont need an app or a Telly to connect
           </div>
         </div>
+      </div> */}
+      <div className="px-2 py-1 font-semibold text-center rounded-lg bg-rose-500">
+        Others dont need an app or a Telly to connect
       </div>
     </section>
   );
