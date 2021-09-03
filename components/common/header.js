@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <div className="sticky top-0 z-50">
-      <nav className="flex items-center justify-between px-5 py-4 custombg">
+      <nav className="flex items-center justify-between px-5 py-4 bg-gradient-to-r from-blue-900 to-cyan-400">
         <div className="flex items-center">
           <div className="relative w-4 h-4 mr-2">
             <Image
@@ -24,20 +24,11 @@ export default function Navbar() {
         </div>
         <a
           href="https://shop.gettelly.com/products/telly-gadget"
-          className="px-6 py-1 text-sm text-white rounded-md bg-cyan-500"
+          className="px-6 py-1 text-sm text-white rounded-md bg-violet-500"
         >
           Buy Now
         </a>
       </nav>
-      <div className="flex flex-col items-center py-1 text-white bg-blue-800 rounded-b-lg shadow">
-        <div className="font-bold">Hey TikToker! Save 15% OFF Telly Gadget</div>
-        <div>
-          Use coupon: <span className="font-bold">Telly15</span>
-        </div>
-        <div>
-          Coupon expires in <span className="font-bold">09:01:06</span>
-        </div>
-      </div>
     </div>
   );
 }

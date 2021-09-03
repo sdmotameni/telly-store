@@ -1,6 +1,6 @@
-import ConnectSVG from "../components/common/connectsvg";
+import ConnectSVG from "./common/connectsvg";
 
-export default function HowItWorks() {
+export default function Instant() {
   return (
     <section className="flex flex-col px-4 py-10 shadow-sm text-cyan-500 space-y-7 rounded-3xl custombg2">
       <div className="flex flex-col items-center px-5">

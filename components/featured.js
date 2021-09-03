@@ -44,54 +44,6 @@ export default function Featured() {
           />
         </div>
       </div>
-      {/* <div className="w-screen py-5 mt-8 bg-gradient-to-r from-blue-900 to-cyan-600">
-        <div className="flex flex-col items-center justify-center">
-          <div className="relative w-8 h-8">
-            <Image
-              alt=""
-              src="/doubts/link.svg"
-              layout="fill"
-              objectFit="contain"
-            />
-          </div>
-          <div className="ml-1 font-bold text-md">
-            Others dont need an app or a Telly to connect
-          </div>
-        </div>
-      </div> */}
-      <div className="px-2 py-1 font-semibold text-center rounded-lg bg-rose-500">
-        Others dont need an app or a Telly to connect
-      </div>
     </section>
   );
 }
-
-/*
-
-const styles = {
-  container: "flex items-center",
-  title: "font-bold text-md",
-  subTitle: "ml-2 text-sm",
-};
-
-
-
-
-    <section className="flex flex-col px-3 py-8 space-y-3 text-blue-900">
-      <div className={styles.container}>
-        <div className={styles.title}>Easy Setup</div>
-        <div className={styles.subTitle}>3-minute quick DIY setup</div>
-      </div>
-      <div className={styles.container}>
-        <div className={styles.title}>Universal</div>
-        <div className={styles.subTitle}>
-          Only 1 person needs a Telly to connect
-        </div>
-      </div>
-      <div className={styles.container}>
-        <div className={styles.title}>24/7 Support</div>
-        <div className={styles.subTitle}>Access to dedicated support</div>
-      </div>
-    </section>
-
-*/

@@ -1,6 +1,6 @@
-import SettingsSVG from "../components/common/settingssvg";
+import SettingsSVG from "./common/settingssvg";
 
-export default function ProfileFeatures() {
+export default function Profile() {
   return (
     <section className="flex flex-col px-4 py-10 mt-6 text-white custombg space-y-7 rounded-3xl">
       <div className="flex flex-col items-center px-5">

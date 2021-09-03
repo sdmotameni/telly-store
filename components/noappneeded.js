@@ -1,6 +1,6 @@
-import ClickSVG from "../components/common/clicksvg";
+import ClickSVG from "./common/clicksvg";
 
-export default function TechFeature() {
+export default function NoAppNeeded() {
   return (
     <section className="px-4 py-10 mt-6 custombg2 space-y-9 rounded-3xl customcolor">
       <div className="flex flex-col items-center px-5">
@@ -11,6 +11,9 @@ export default function TechFeature() {
         <div className="text-lg leading-tight tracking-tight text-center text-gray-600">
           Telly profiles are viewed directly through a browser making Telly
           compatible with all smartphones.
+          <div className="font-semibold text-center text-white rounded-lg bg-rose-600">
+            NOTE: Others dont need an app or a Telly to connect
+          </div>
         </div>
       </div>
     </section>

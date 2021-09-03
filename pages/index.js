@@ -2,12 +2,14 @@ import Head from "next/head";
 
 import Header from "../components/common/header";
 import Footer from "../components/common/footer";
+
 import Hero from "../components/hero";
 import Featured from "../components/featured";
-import HowItWorks from "../components/howitworks";
-import ProfileFeatures from "../components/profileFeatures";
-import TechFeature from "../components/techfeature";
+import Instant from "../components/instant";
+import Profile from "../components/profile";
+import NoAppNeeded from "../components/noappneeded";
 import Doubts from "../components/doubts";
+
 import HQ from "../components/hq";
 import Faq from "../components/faq";
 
@@ -27,9 +29,9 @@ export default function Home() {
         <div className="m-2">
           <Hero />
           <Featured />
-          <HowItWorks />
-          <ProfileFeatures />
-          <TechFeature />
+          <Instant />
+          <Profile />
+          <NoAppNeeded />
           <Doubts />
         </div>
         <Faq />
