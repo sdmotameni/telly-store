@@ -11,9 +11,6 @@ export default function NoAppNeeded() {
         <div className="text-lg leading-tight tracking-tight text-center text-gray-600">
           Telly profiles are viewed directly through a browser making Telly
           compatible with all smartphones.
-          <div className="font-semibold text-center text-white rounded-lg bg-rose-600">
-            NOTE: Others dont need an app or a Telly to connect
-          </div>
         </div>
       </div>
     </section>

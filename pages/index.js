@@ -9,6 +9,7 @@ import Instant from "../components/instant";
 import Profile from "../components/profile";
 import NoAppNeeded from "../components/noappneeded";
 import Doubts from "../components/doubts";
+import Showcase from "../components/showcase";
 
 import HQ from "../components/hq";
 import Faq from "../components/faq";
@@ -32,6 +33,7 @@ export default function Home() {
           <Instant />
           <Profile />
           <NoAppNeeded />
+          <Showcase />
           <Doubts />
         </div>
         <Faq />

@@ -40,12 +40,6 @@ export default function Doubts() {
         "30-Day Money-back Guarantee",
         "Receive a 100% full refund"
       )}
-      <a
-        href="https://shop.gettelly.com/products/telly-gadget"
-        className="px-4 py-2 mx-12 text-lg font-medium text-center text-white rounded-md shadow-lg bg-cyan-500"
-      >
-        Choose your Telly device
-      </a>
     </section>
   );
 }
