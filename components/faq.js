@@ -53,7 +53,22 @@ export default function Faq() {
             "Can I contact the Telly team?",
             "Of course! We love to talk! Shoot us over an email anytime and we will respond to you within 24 hours! Email: support@gettelly.com"
           )}
-          {generateQuestion(2, "questin 2", "pport@gettelly.com")}
+          {generateQuestion(
+            2,
+            "Is there a difference between the Telly colors?",
+            "pport@gettelly.com"
+          )}
+          {generateQuestion(
+            3,
+            "What phones is it comptabile with?",
+            "pport@gettelly.com"
+          )}
+          {generateQuestion(
+            4,
+            "Does the other person need a Telly for it to work?",
+            "pport@gettelly.com"
+          )}
+          {generateQuestion(5, "How does Telly work?", "pport@gettelly.com")}
         </div>
       </div>
     </section>

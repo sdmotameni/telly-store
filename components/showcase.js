@@ -46,10 +46,6 @@ export default function Showcase() {
       <div className="mb-6 text-3xl font-semibold tracking-tight text-center">
         Best Sellers
       </div>
-      {/* <div className="font-semibold text-center text-white rounded-lg bg-rose-600">
-        Others dont need an app or Telly to connect
-      </div> */}
-
       <div className="space-y-5">
         {generateContainer("Telly Black", 311, "/showcase/telly-black.png")}
         {generateContainer("Telly Rose", 239, "/showcase/telly-rose.png")}
