@@ -26,19 +26,19 @@ export default function Doubts() {
   return (
     <section className="flex flex-col py-6 space-y-4 md:space-y-0 md:space-x-5 md:flex md:items-center md:justify-center">
       {genBadge(
+        "/doubts/check-mark.svg",
+        "30-Day Money-back Guarantee",
+        "Receive a 100% full refund"
+      )}
+      {genBadge(
         "/doubts/delivery.svg",
-        "Fast Shipping",
+        "Fast & FREE Shipping",
         "Quick, No-Contact Delivery"
       )}
       {genBadge(
         "/doubts/badge.svg",
         "2-Year Warranty",
         "On all Telly Smart Gadgets"
-      )}
-      {genBadge(
-        "/doubts/check-mark.svg",
-        "30-Day Money-back Guarantee",
-        "Receive a 100% full refund"
       )}
     </section>
   );

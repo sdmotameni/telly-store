@@ -10,6 +10,7 @@ import Profile from "../components/profile";
 import NoAppNeeded from "../components/noappneeded";
 import Doubts from "../components/doubts";
 import Showcase from "../components/showcase";
+import Testimonials from "../components/testimonials";
 
 import HQ from "../components/hq";
 import Faq from "../components/faq";
@@ -34,6 +35,7 @@ export default function Home() {
           <Profile />
           <NoAppNeeded />
           <Showcase />
+          <Testimonials />
           <Doubts />
         </div>
         <Faq />

@@ -56,19 +56,23 @@ export default function Faq() {
           {generateQuestion(
             2,
             "Is there a difference between the Telly colors?",
-            "pport@gettelly.com"
+            "There is no difference between colors. The difference in colors are just for styling and so we can cater to varying customer preferences."
           )}
           {generateQuestion(
             3,
-            "What phones is it comptabile with?",
-            "pport@gettelly.com"
+            "What phones is it compatible with?",
+            "iPhones and Androids"
           )}
           {generateQuestion(
             4,
             "Does the other person need a Telly for it to work?",
-            "pport@gettelly.com"
+            "Nope- That's the magic in Telly! Only you need a Telly to instantly transfer your profile onto their phone!"
           )}
-          {generateQuestion(5, "How does Telly work?", "pport@gettelly.com")}
+          {generateQuestion(
+            5,
+            "How does Telly work?",
+            "Telly uses something called Near-field communication (aka NFC) which is embedded technology in all modern smartphones. We've built our service on top of this technology! Think of Telly as an invisible QR-code."
+          )}
         </div>
       </div>
     </section>
