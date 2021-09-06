@@ -5,14 +5,14 @@ export default function Navbar() {
     <div className="sticky top-0 z-50">
       <nav className="flex items-center justify-between px-5 py-4 bg-gradient-to-r from-blue-900 to-cyan-400">
         <div className="flex items-center">
-          <div className="relative w-4 h-4 mr-2">
+          {/* <div className="relative w-4 h-4 mr-2">
             <Image
               alt="navicon"
               src="/navicon.svg"
               layout="fill"
               objectFit="contain"
             />
-          </div>
+          </div> */}
           <div className="relative w-12 h-5">
             <Image
               alt="logo"
