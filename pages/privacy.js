@@ -19,6 +19,7 @@ export default function privacy() {
         <a
           href="https://www.freeprivacypolicy.com/blog/sample-privacy-policy-template/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Privacy Policy Template
         </a>
